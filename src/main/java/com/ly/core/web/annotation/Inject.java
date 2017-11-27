@@ -6,10 +6,9 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by cilu on 2017/11/21.
+ * Created by cilu on 2017/11/24.
  */
-@Target({ElementType.TYPE, ElementType.FIELD})
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface RequestMapping {
-    String value();
+public @interface Inject {
 }
